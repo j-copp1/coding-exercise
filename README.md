@@ -2,7 +2,7 @@
 
 Question 1 :
 
-'python3 question.py' to start
+'python3 question1.py' to start
 
 then input an array of numbers to be scrambled, like (7, 13, 13, 18, 29, 33)
 
