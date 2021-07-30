@@ -27,7 +27,7 @@ def abbrList(words) :
     #returns dictionary of results
     return results
 
-#testing functions
+#test using examples
 testList = ['internationalization', 'localization', 'accessibility', 'automatically']
 #q1
 print(abbr(testList[0]), '->', abbr(testList[0]))
