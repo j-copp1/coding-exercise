@@ -17,7 +17,7 @@ def abbrList(words) :
     for word in words :
         #run previous method on word from list
         currAbbr = abbr(word)
-        #is abbreviation is unique 
+        #if abbreviation is unique 
         if currAbbr not in uniqueAbbrs :
             uniqueAbbrs.append(currAbbr)
             results.update({word : True})
