@@ -30,7 +30,7 @@ def abbrList(words) :
 #test using examples
 testList = ['internationalization', 'localization', 'accessibility', 'automatically']
 #q1
-print(abbr(testList[0]), '->', abbr(testList[0]))
-print(abbr(testList[1]), '->', abbr(testList[1]))
+print(testList[0], '->', abbr(testList[0]))
+print(testList[1], '->', abbr(testList[1]))
 #q2
 print(abbrList(testList))
