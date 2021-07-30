@@ -30,7 +30,7 @@ def abbrList(words) :
 #testing functions
 testList = ['internationalization', 'localization', 'accessibility', 'automatically']
 #q1
-print(abbr(testList[0]))
-print(abbr(testList[1]))
+print(abbr(testList[0]), '->', abbr(testList[0]))
+print(abbr(testList[1]), '->', abbr(testList[1]))
 #q2
 print(abbrList(testList))
